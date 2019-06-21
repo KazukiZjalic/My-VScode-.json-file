@@ -1,6 +1,6 @@
 {
-    //CPP設定
     "files.associations": {
+        //C/C++
         "xstring": "cpp",
         "fstream": "cpp",
         "xlocale": "cpp",
@@ -40,22 +40,22 @@
         "xutility": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
-    //Python設定
+    //Python
     "python.jediEnabled": false,
-    "python.pythonPath": "C:\\Users\\zjaliczzz\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.pythonPath": "C:\\Users\\***\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
     "python.linting.pylintEnabled": true,
     "files.autoGuessEncoding": true,
-    //Latex設定
+    //Latex
     "latex-workshop.latex.recipes": [
         {
             "name": "ptex2pdf",
             "tools": [
-                "ptex2pdf", //タイプセットに使うtoolの名前
+                "ptex2pdf",
             ]
         }
     ],
     "latex-workshop.latex.tools": [
-        { //タイプセットに使うtoolの設定
+        {
             "name": "ptex2pdf",
             "command": "ptex2pdf",
             "args": [
